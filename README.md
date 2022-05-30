@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @louisotieno2001
-- 👀 I’m interested in cpmputer programming and machine learning
-- 🌱 I’m currently learning Compatuter Science at Multimedia University of Kenya 
+- 👀 I’m interested in computer programming and machine learning
+- 🌱 I’m currently learning Computer Science at Multimedia University of Kenya 
 - 💞️ I’m looking to collaborate on AI 
 - 📫 How to reach me email: louisotieno2001@gmail.com phone: 0746852485
 
