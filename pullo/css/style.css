@@ -1,0 +1,404 @@
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: Poppins;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 20px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.gallery_section{
+	width: 100%;
+	float: left;
+	background-color: #ff4e5b;
+	height: auto;
+
+}
+
+.best_shoes {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px 20px 20px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.best_text{
+	width: 100%;
+	float: left;
+	font-size: 14pt;
+	color: #000;
+	text-align: center;
+    margin-left: 0px;
+}
+.shoes_icon{
+	width: 100%;
+	float: left;
+	text-align: center;
+	min-height: 220px;
+}
+
+.star_text{
+	width: 100%;
+	float: left;
+}
+.left_part {
+    width: 60%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.left_part ul{ margin: 0px; padding: 0px; }
+.left_part li{ float: left; padding-left: 10px; }
+.right_part{ width: 40%; float: left; }
+.shoes_price{ 
+	width: 100%; 
+	float: left; 
+	font-size: 22pt; 
+	color: #0f0d10; 
+	text-align: right;
+}
+
+.buy_now_bt{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.buy_text{
+	width: 32%;
+	height: 50px;
+	color: #ffffff;
+	background-color: #131111;
+	color: #ffffff;
+	font-size: 16pt;	
+	margin-top: 35px;
+}
+
+.contact_section{
+	width: 100%;
+	float: left;
+}
+.email_box {
+    width: 85%;
+    float: right;
+    background-color: #14120e;
+    height: auto;
+    padding: 20px 20px;
+    opacity: 0.80;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.email-bt {
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 55px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.massage-bt {
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 200px;
+    font-size: 22px;
+    padding: 70px 20px 10px 20px;
+}
+
+.send_btn {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_bt {
+    background: #ff4e5b;
+    border: none;
+    width: 170px;
+    height: 58px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.ram{
+	width: 100%; 
+	float: left;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.shop_banner{
+	width: 100%;
+	float: left;
+	background-image: url(../images/shop-banner.png);
+	height: auto;
+	padding: 70px;
+}
+
+.our_shop {
+    width: 100%;
+    float: left;
+    padding-top: 205px;
+    padding-bottom: 205px;
+}
+.out_shop_bt {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #131111;
+    text-align: center;
+    font-size: 20pt;
+    display: block;
+}
+
+.section_footer {
+    width: 100%;
+    float: left;
+    background-color: #272222;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mail_section {
+    width: 100%;
+    float: left;
+}
+.footer-logo {
+    float: left;
+    font-size: 12pt;
+    color: #fdfefe;
+}
+
+.mail_section li {
+    float: left;
+    font-size: 12pt;
+    color: #fdfefe;
+    padding-right: 35px;
+}
+.footer_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.shop_text {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+}
+.dummy_text {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 55px;
+    line-height: 25px;
+}
+.image-icon {
+    width: 100%;
+    float: left;
+    padding-top: 6px;
+}
+.pet_text {
+    font-size: 12pt;
+    color: #ffffff;
+    padding-left: 16px;
+    display: flex;
+    top: -26px;
+    position: relative;
+    padding-left: 20px;
+}
+.adderess_text {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+}
+
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #ff4e5b;
+    font-family: Poppins;
+}
+
+.copyright a{ color: #ffffff; }
+.copyright a:hover{ color: #000; }
+
+.map_text {
+    padding-left: 15px;
+}
+
+.delivery_text{
+	width: 100%;
+	float: left;
+	font-size: 17px;
+	color: #ffffff;
+}
+
+.enter_email{
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.subscribr_bt {
+    width: 80%;
+    float: right;
+    background-color: #ff4e5b;
+    font-size: 13pt;
+    height: 50px;
+    color: #ffffff;
+}
+
+
+.about_main {
+    width: 100%;
+    float: left;
+        padding-bottom: 30px;
+}
+
+.header_main {
+    width: 100%;
+    height: auto;
+    background: #0c0116;
+}
