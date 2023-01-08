@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @louisotieno2001
+- 👋 Hi, I’m @LouisO
 - 👀 I’m interested in computer programming and machine learning
 - 🌱 I’m currently learning Computer Science at Multimedia University of Kenya 
 - 💞️ I’m looking to collaborate on AI 
